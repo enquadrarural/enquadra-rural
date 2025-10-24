@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Enquadramento Produtor Rural</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>🌾 Enquadra Rural</h1>
+<ul>
+  <li><a href="index.html">Início</a></li>
+  <li><a href="sobre.html">Sobre</a></li>
+  <li><a href="enquadramento.html">Enquadramento</a></li>
+  <li><a href="contato.html">Contato</a></li>
+</ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container">
+      <h2>📋 Enquadramento do Produtor Rural</h2>
+
+      <form id="formEnquadramento">
+        <fieldset>
+          <legend>🧑‍🌾 Informações do Produtor</legend>
+          <label for="caf">Possui CAF ativa?</label>
+          <select name="caf" id="caf" required>
+            <option value="SIM">SIM</option>
+            <option value="NÃO">NÃO</option>
+          </select>
+        </fieldset>
+
+        <fieldset>
+          <legend>🌾 Rendas Agropecuárias (Anual)</legend>
+          <div class="grid">
+            <label>Grãos: <input type="text" name="graos" class="moeda" value="R$ 0,00"></label>
+            <label>Bovinos de leite: <input type="text" name="leite" class="moeda" value="R$ 0,00"></label>
+            <label>Bovinos de corte: <input type="text" name="corte" class="moeda" value="R$ 0,00"></label>
+            <label>Ovinos: <input type="text" name="ovinos" class="moeda" value="R$ 0,00"></label>
+            <label>Caprinos: <input type="text" name="caprinos" class="moeda" value="R$ 0,00"></label>
+            <label>Hortaliças e Verduras: <input type="text" name="hortas" class="moeda" value="R$ 0,00"></label>
+            <label>Fruticultura: <input type="text" name="frutas" class="moeda" value="R$ 0,00"></label>
+            <label>Cafeicultura: <input type="text" name="cafe" class="moeda" value="R$ 0,00"></label>
+            <label>Búfalos: <input type="text" name="bufalos" class="moeda" value="R$ 0,00"></label>
+            <label>Outros: <input type="text" name="outrosAgro" class="moeda" value="R$ 0,00"></label>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>💼 Demais Rendas (Anual)</legend>
+          <div class="grid">
+            <label>Assalariado: <input type="text" name="assalariado" class="moeda" value="R$ 0,00"></label>
+            <label>Aposentadoria: <input type="text" name="aposentadoria" class="moeda" value="R$ 0,00"></label>
+            <label>Pró-labore: <input type="text" name="prolabore" class="moeda" value="R$ 0,00"></label>
+            <label>Outros: <input type="text" name="outrosRenda" class="moeda" value="R$ 0,00"></label>
+          </div>
+        </fieldset>
+
+        <button type="submit">✅ Calcular Enquadramento</button>
+      </form>
+
+      <div id="resultado" class="resultado"></div>
+      <canvas id="graficoPizza"></canvas>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Enquadra Rural. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
