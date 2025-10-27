@@ -235,3 +235,39 @@ button[type="submit"]:hover {
   font-size: 1rem;
   line-height: 1.5;
 }
+/* === Seção de Downloads === */
+.downloads {
+  background-color: #f9f9f9;
+  padding: 2rem;
+  margin-top: 2rem;
+  border-radius: 8px;
+}
+
+.downloads h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.downloads p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.downloads ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.downloads li {
+  margin-bottom: 0.8rem;
+  font-size: 1rem;
+}
+
+.downloads a {
+  text-decoration: none;
+  color: #007b5e;
+}
+
+.downloads a:hover {
+  text-decoration: underline;
+}
