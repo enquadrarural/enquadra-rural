@@ -212,3 +212,26 @@ button[type="submit"]:hover {
   margin: 20px auto;
   display: block;
 }
+/* === Seção de Atualizações === */
+.atualizacoes {
+  background-color: #f4f4f4;
+  padding: 2rem;
+  margin-top: 2rem;
+  border-radius: 8px;
+}
+
+.atualizacoes h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.atualizacoes ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.atualizacoes li {
+  margin-bottom: 0.8rem;
+  font-size: 1rem;
+  line-height: 1.5;
+}
