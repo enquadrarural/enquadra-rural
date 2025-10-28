@@ -276,4 +276,8 @@ nav h1 {
   align-items: center;
   gap: 8px;
 }
+.logo {
+  max-width: 100%;
+  height: auto;
+}
 
