@@ -271,3 +271,9 @@ button[type="submit"]:hover {
 .downloads a:hover {
   text-decoration: underline;
 }
+nav h1 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
